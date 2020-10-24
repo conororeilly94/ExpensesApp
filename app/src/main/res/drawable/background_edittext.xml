@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    Color for edit texts-->
+    <gradient android:angle="45"
+        android:startColor="#FF973B1E"
+        android:endColor="#FFA69609"
+        />
+
+    <!--    Creates a curve to corners of the email and login texts-->
+    <corners android:topRightRadius="10dp"
+        android:topLeftRadius="20dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="20dp"
+        />
+
+</shape>
