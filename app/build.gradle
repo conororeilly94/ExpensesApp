@@ -47,10 +47,11 @@ dependencies {
     androidTestCompile 'androidx.test.espresso:espresso-core:3.1.0'
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.google.android.material:material:1.1.0-alpha05' // appbar_scrolling_view_behaviour
-    implementation 'com.google.android.material:material:1.2.0-alpha01' // support design widget bottomnavigationbar
+    implementation 'com.google.android.material:material:1.1.0-alpha05'
+    // appbar_scrolling_view_behaviour
+    implementation 'com.google.android.material:material:1.2.0-alpha01'
+    // support design widget bottomnavigationbar
     implementation 'com.google.android.material:material:1.2.1'
-
 }
 
 apply plugin: 'com.google.gms.google-services'

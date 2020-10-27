@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         loginDetails();
     }
 
+
     private void loginDetails() {
 
         mEmail = findViewById(R.id.email_login);
