@@ -22,6 +22,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:id="@+id/navbarView"
+        app:itemTextColor="@color/app_head"
         android:fitsSystemWindows="true"
         app:itemTextAppearance="?android:textAppearanceSmall"
         app:itemIconTint="@color/toolbar_color"

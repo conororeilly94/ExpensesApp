@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#28025E</color>
     <color name="colorPrimaryDark">#A50B00</color>
-    <color name="colorAccent">#132077</color>
+    <color name="colorAccent">#FB3C00</color>
     <color name="toolbar_color">#FF1836D8</color>
-    <color name="app_head">#FF27972B</color>
+    <color name="app_head">#7CAACF</color>
+    <color name="dashboard_color">#FF28025E</color>
+    <color name="income_color">#A3010E</color>
+    <color name="expense_color">#FF00F10A</color>
 </resources>
