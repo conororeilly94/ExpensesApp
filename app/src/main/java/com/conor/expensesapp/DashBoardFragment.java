@@ -61,8 +61,8 @@ public class DashBoardFragment extends Fragment {
         FirebaseUser mUser = mAuth.getCurrentUser();
         String uid = mUser.getUid();
 
-        mIncomeDb = FirebaseDatabase.getInstance().getReference().child("Income Data").child(uid);
-        mExpenseDb = FirebaseDatabase.getInstance().getReference().child("Expense Data").child(uid);
+        mIncomeDb = FirebaseDatabase.getInstance().getReference().child("IncomeData").child(uid);
+        mExpenseDb = FirebaseDatabase.getInstance().getReference().child("ExpenseData").child(uid);
 
         // Connecting the floating btn to layout
         fab_main_btn = myview.findViewById(R.id.main_btn);

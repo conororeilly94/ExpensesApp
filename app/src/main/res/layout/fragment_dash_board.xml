@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Expense"
-                android:id="@+id/expense_ft_text"
+                android:id="@+id/expense_text"
                 android:padding="5dp"
                 android:textColor="@android:color/white"
                 android:background="@color/app_head"

@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        if (mAuth.getCurrentUser()!=null) {
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-        } // Keeps user logged in
+//        if (mAuth.getCurrentUser()!=null) {
+//            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+//        } // Keeps user logged in
 
         mDialog = new ProgressDialog(this);
 
