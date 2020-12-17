@@ -23,6 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="27 October 2020"
                 android:textColor="@color/date_color"
+                android:layout_margin="5dp"
                 android:textAppearance="?android:textAppearanceSmall"
                 android:textStyle="bold"
                 android:id="@+id/date_expense"
