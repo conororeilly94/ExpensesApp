@@ -23,7 +23,7 @@
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@color/colorPrimary"
             android:gravity="center"
-            android:id="@+id/type_income"
+            android:id="@+id/type_expense"
             />
 
         <TextView
@@ -33,8 +33,8 @@
             android:text="Amount:"
             android:layout_marginTop="10dp"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/income_color"
-            android:id="@+id/amount_income"
+            android:textColor="@color/expense_color"
+            android:id="@+id/amount_expense"
             />
 
         <TextView
@@ -42,12 +42,11 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
             android:text="16th December 2020"
+            android:id="@+id/date_expense"
             android:gravity="center"
-            android:textColor="@color/income_color"
-            android:id="@+id/date_income"
+            android:textColor="@color/expense_color"
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>
