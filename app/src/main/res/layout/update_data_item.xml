@@ -30,7 +30,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="AMOUNT:"
+                        android:text="@string/amount"
                         />
 
                 </RelativeLayout>
@@ -67,7 +67,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TYPE:"
+                        android:text="@string/type"
                         />
 
                 </RelativeLayout>
@@ -104,7 +104,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="NOTE:"
+                        android:text="@string/note"
                         />
 
                 </RelativeLayout>
@@ -141,7 +141,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Delete"
+                        android:text="@string/delete"
                         android:id="@+id/deleteBtn"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="@android:color/white"

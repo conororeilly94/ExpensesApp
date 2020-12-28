@@ -136,6 +136,7 @@ public class DashBoardFragment extends Fragment {
             }
         });
         mIncomeDb.addValueEventListener(new ValueEventListener() {
+            // When updating total income in dashboard
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 int total = 0;
@@ -156,6 +157,7 @@ public class DashBoardFragment extends Fragment {
         });
 
         mExpenseDb.addValueEventListener(new ValueEventListener() {
+            // When updating total expenses in dashboard
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -238,7 +240,7 @@ public class DashBoardFragment extends Fragment {
     }
 
     public void incomeDataInsert() {
-
+        // Adding new income data to DB
         AlertDialog.Builder mydialog = new AlertDialog.Builder(getActivity());
 
         LayoutInflater inflater = LayoutInflater.from(getActivity());
@@ -308,7 +310,7 @@ public class DashBoardFragment extends Fragment {
     }
 
     public void expenseDataInsert() {
-
+        // Adding new expense data to DB
         AlertDialog.Builder mydialog = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater = LayoutInflater.from(getActivity());
 

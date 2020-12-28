@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-<!--    TextAppearance allows you to define text-specific styling while leaving a View 's style available for other uses.-->
+    <!--    TextAppearance allows you to define text-specific styling while leaving a View 's style available for other uses.-->
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

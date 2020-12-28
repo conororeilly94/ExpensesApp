@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         loginDetails();
     }
 
-
     private void loginDetails() {
 
         mEmail = findViewById(R.id.email_login);
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if(TextUtils.isEmpty(password)) {
-                    // Ensures email field is inserted
+                    // Ensures password field is inserted
                     mPassword.setError("Password Required");
                     return;
                 }
@@ -89,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Login Successful", Toast.LENGTH_SHORT).show();
                         } else {
                             mDialog.dismiss();
-                            Toast.makeText(getApplicationContext(), "Login Failed", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Login Failed. Please try again", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

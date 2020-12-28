@@ -20,11 +20,10 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content">
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Log In"
+                android:text="@string/login"
                 android:textColor="@android:color/background_light"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:gravity="center"
@@ -46,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:hint="Password:"
+                android:hint="@string/password"
                 android:background="@drawable/background_edittext"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white"
@@ -62,7 +61,7 @@
                 android:textAppearance="?android:textAppearanceMedium"
                 android:background="@drawable/background_edittext"
                 android:textColor="@android:color/white"
-                android:text="Log In"
+                android:text="@string/login"
                 android:id="@+id/button_login"
                 />
 
@@ -72,7 +71,7 @@
                 android:padding="5dp"
                 android:textColor="@android:color/white"
                 android:gravity="center"
-                android:text="Forgot Your Password?"
+                android:text="@string/forgot"
                 android:id="@+id/forget_password"
                 />
 
@@ -82,8 +81,17 @@
                 android:padding="5dp"
                 android:textColor="@android:color/white"
                 android:gravity="center"
-                android:text="No Account? Sign Up"
+                android:text="@string/register"
                 android:id="@+id/signup_reg"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ExpensesApp is an easy to use application that allows you to track your income and expenses at a glance. Easily add, update or delete your transactions at a click of a button"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="5dp"
                 />
 
         </LinearLayout>

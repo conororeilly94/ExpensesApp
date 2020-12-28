@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DepensesApp</string>
+    <string name="login">S\'identifier</string>
+    <string name="password">Mot de passe:</string>
+    <string name="forgot">Mot de pass oublie?</string>
+    <string name="register">Pas de compte? S\'inscrire</string>
+    <string name="registered">" Vous avez déjà un compte? se connecter"</string>
+    <string name="signup">"S'inscrire "</string>
+    <string name="type">Type</string>
+    <string name="dashboard">"Tableau de bord "</string>
+    <string name="amount">Montant</string>
+    <string name="date">Date</string>
+    <string name="income">Le revenu</string>
+    <string name="expense">Frais</string>
+    <string name="logout">"Se déconnecter "</string>
+    <string name="note">Remarque</string>
+    <string name="cancel">"Annuler "</string>
+    <string name="save">Sauver</string>
+    <string name="manager">"Gestionnaire de dépenses "</string>
+    <string name="delete">Effacer</string>
+    <string name="update">Mettre à jour</string>
+    <string name="about">ExpensesApp est une application facile à utiliser qui vous permet de suivre vos revenus et dépenses en un coup d\'œil. Ajoutez, mettez à jour ou supprimez facilement vos transactions en un clic</string>
+</resources>
